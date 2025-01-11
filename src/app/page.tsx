@@ -11,7 +11,13 @@ export default function Home() {
           </div>
         </div>
       </nav>
-      <div className={styles.logoContainer}>
+
+      <a
+        href="https://testflight.apple.com/join/e9KpfwrB"
+        target="_blank"
+        rel="noopener noreferrer"
+        className={styles.logoContainer}
+      >
         <Image
           src="/logo.png"
           alt="App Logo"
@@ -20,7 +26,7 @@ export default function Home() {
           className={styles.logo}
         />
         <p className={styles.downloadText}>DOWNLOAD ON THE APP STORE</p>
-      </div>
+      </a>
       <footer className={styles.footer}>
         <div className={styles.footerLinks}>
           <a href="/terms" className={styles.footerLink}>
